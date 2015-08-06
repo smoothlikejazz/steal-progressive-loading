@@ -1,0 +1,21 @@
+{
+  "system": {
+    "bundle": [
+      "components/landing/landing",
+      "components/application/application"
+    ],
+    "paths": {
+      "can/*" : "../node_modules/can/*.js",
+      "jquery/*" : "../node_modules/jquery/dist/*.js",
+      "components/*" : "../components/*.js",
+      "framework/*" : "../framework/*.js"
+    },
+    "meta": {
+      "framework/toggle/toggle" : {
+        "deps" : [
+          "framework/dependency_libraries/dep1"
+        ]
+      }
+    }
+  }
+}
